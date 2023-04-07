@@ -1,0 +1,99 @@
+/* stylelint-disable selector-list-comma-newline-after */
+
+head, body{
+  background-color: #eddbc7;
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+}
+
+img{
+  border: solid #e5e5e5;
+}
+
+p{
+  color:white;
+}
+
+.btn{
+  margin-top: 25px;
+  background-color:#eddbc7;
+  color: #a7727d;
+  border-color: #a7727d ;
+}
+
+nav{
+  color: #eddbc7;
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+  margin-bottom: 30px;
+  margin: 0 auto;
+}
+
+.navbar{
+  background-color:#a7727d;
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+}
+
+.container{
+  background-color:#a7727d;
+}
+
+.avatar {
+  vertical-align: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+
+.display-2{
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+}
+
+.flex-auto {
+  flex: 0 0 auto;
+}
+
+.button {
+  margin-top: 25px;
+  background-color:#eddbc7;
+  color: #a7727d;
+  border-color: #a7727d ;
+}
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+.blog-pagination > .btn {
+  border-radius: 2rem;
+}
+
+/*
+ * Footer
+ */
+.blog-footer {
+  padding: 2.5rem 0;
+  color: white;
+  text-align: center;
+  border-top: .05rem solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
